@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { CloudDownload as CloudDownloadIcon } from '@material-ui/icons';
 import './DownloadButton.css'
 import cv from '../../assets/documents/Chiheb_Chikhaoui_CV.pdf';
 
