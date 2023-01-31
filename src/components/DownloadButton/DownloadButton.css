@@ -1,0 +1,35 @@
+.download-button {
+  font-weight: 700;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 18px 34px;
+    font-size: 18px;
+    margin-left: 18px;
+    position: relative;
+    background-color: transparent;
+    transition: 0.3s ease-in-out;
+}
+.download-button span {
+  z-index: 1;
+  position: relative;
+}
+.download-button:hover {
+  color: #121212;
+}
+.download-button::before {
+  content: "";
+  background: #fff;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  transition: 0.3s ease-in-out;
+}
+.download-button:hover::before {
+  width: 100%;
+}
+.link{
+  text-decoration: none !important;
+}
