@@ -880,3 +880,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   list-style: none;
 }
 
+.profiledesc{
+  min-height: 130px !important;
+}
+

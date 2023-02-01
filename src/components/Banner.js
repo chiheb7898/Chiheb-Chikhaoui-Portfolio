@@ -60,7 +60,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                <h1>{`Hi! I'm Chiheb`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
+                <h1 className="profiledesc">{`Hi! I'm Chiheb`} <span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Designer", "UI/UX Designer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I am a multi-skilled Software Engineer with a passion for creating intuitive, user-centered digital experiences. With experience in both mobile and web development, I have a track record of delivering high-quality, reliable software products. My expertise in UX/UI design allows me to approach development with a user-focused mindset, ensuring that the end-product is not only functional, but also aesthetically pleasing. I am constantly seeking new challenges and opportunities to grow my skills and bring value to my clients and teams.</p>
                   <DownloadButton/>
               </div>}
