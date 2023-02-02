@@ -63,16 +63,16 @@ export const Contact = () => {
                   <form ref={form} onSubmit={sendEmail}>
                     <Row>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="text" name="first_name" placeholder="First Name" pattern="[A-Za-z]+" required title="Only Letters Accepted!"/>
+                        <input type="text" name="first_name" placeholder="First Name"  required />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="text" name="last_name" placeholder="Last Name" pattern="[A-Za-z]+" required title="Only Letters Accepted!"/>
+                        <input type="text" name="last_name" placeholder="Last Name" required />
                       </Col>
                       <Col size={12} sm={6} className="px-1">
                         <input type="email" placeholder="Email Address" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required title="Put a Valid email!"/>
                       </Col>
                       <Col size={12} sm={6} className="px-1">
-                        <input type="tel" placeholder="Phone No." name="phone" pattern="[0-9]+" required title="Only Digits Accepted!"/>
+                        <input type="tel" placeholder="Phone No." name="phone" pattern="[0-9+]+" required title="Only Digits Accepted!"/>
                       </Col>
                       <Col size={12} className="px-1">
                         <textarea rows="6" placeholder="Message" name="message" required></textarea>
