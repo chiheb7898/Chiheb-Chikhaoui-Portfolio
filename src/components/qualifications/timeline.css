@@ -58,17 +58,27 @@
 
 .vertical-timeline-element-title {
   font-size: 13px;
-  margin-top: -12px;
+  margin-top: 5px;
 }
 
 .vertical-timeline-element-location {
-  font-size: 10px;
-  margin-top: -12px;
+  font-size: 0.8em; /* Smaller than title/subtitle */
+  color: #666; /* Subtle color */
+  margin-top: 8px; /* Adequate spacing from the subtitle */
+  display: flex; /* For aligning icon with text */
+  align-items: center; /* Align icon and text vertically */
+}
+
+.location-icon {
+  width: 16px; /* Small icon size */
+  height: 16px;
+  margin-right: 5px; /* Space between icon and text */
 }
 
 .vertical-timeline-element-description {
-  margin-top: -15px;
+  margin-top: 5px;
 }
+
 
 
 /* media queries */

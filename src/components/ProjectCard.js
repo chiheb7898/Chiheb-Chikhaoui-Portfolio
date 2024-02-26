@@ -11,7 +11,7 @@ export const ProjectCard = ({ title, description, imgUrl, technologies, link , l
           <h4>{title}</h4>
           <h5>{description}</h5>
           <span className="span-technologies">{technologies}</span><br/><br/>
-          <a href={link} className="seemore__button" target="_blank" > {linkText}
+          <a href={link} className="seemore__button" > {linkText}
             <i className="bx bx-right-arrow-alt work__button-icon"></i>
           </a>
         </div>

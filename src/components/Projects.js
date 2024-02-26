@@ -74,7 +74,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: onstageios,
       technologies:"Swift, Node.JS",
-      link:"https://github.com/chiheb7898/OnStage-IOS-Swift-",
+      link:"/Project/OnStageIOS",
       linkText: "View Project on Github"
     },
 
@@ -85,7 +85,7 @@ export const Projects = () => {
       description: "Design & Development",
       imgUrl: projImg5,
       technologies: "Python, Node.JS, React.JS, Flutter",
-      link: 'https://www.youtube.com/watch?v=qk5wacanK5U',
+      link: '/Project/InterX',
       linkText: "View Project Video On Youtube"
     },
     {
