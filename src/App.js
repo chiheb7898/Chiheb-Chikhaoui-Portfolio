@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { NavBar } from "./components/NavBar";
 import { Footer } from "./components/Footer";
 import HomePage from "./components/HomePage/HomePage";
-import ProjectDetails from "./components/Project Details/ProjectDetails"
+// import ProjectDetails from "./components/Project Details/ProjectDetails"
 import { HashRouter, BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import { ToastContainer } from 'react-toastify';
@@ -18,7 +18,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" exact element={<HomePage />} />
-          <Route path='/Project/:id' element={<ProjectDetails/>}/>
+          {/* <Route path='/Project/:id' element={<ProjectDetails/>}/> */}
         </Routes>
       </Router>
       <Footer />
